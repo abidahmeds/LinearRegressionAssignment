@@ -19,7 +19,7 @@ nBased on various meteorological surveys and people's styles, the service provid
 
 
 ## Conclusions
-* Inferences of the Exploratory Data analysis on the dataset.
+1 Inferences of the Exploratory Data analysis on the dataset.
  * temp and atemp seems to have a obvious liner positive regression relationship
  * windspeed and hum have some relationship but not looking obviously linear
  * weathersit and season have a relationship as in some categories have higher rental count
@@ -31,8 +31,8 @@ nBased on various meteorological surveys and people's styles, the service provid
  * There is comparatively more rental on summer and spring season , decreases in fall and least in winter.
  * Relative to season , There is comparatively more rental on April to Aug/sep timeframe compared to colder months.
  * More people tend to use bike rentals on clear sky m sunny and cloudy days compared to rainy or snowy days. There is none usage in 2 years on heavy snow or heavy rain day which is no surprise.   
-* Model coeefficients and summary parameters of the final selected model. 
-* Useful charts and plots for the analysis done.
+2 Model coeefficients and summary parameters of the final selected model. 
+3 Useful charts and plots for the analysis done.
 
 
 ## Technologies Used
