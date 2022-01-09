@@ -20,22 +20,24 @@ nBased on various meteorological surveys and people's styles, the service provid
 
 ## Conclusions
 - Inferences of the Exploratory Data analysis on the dataset.
+-- temp and atemp seems to have a obvious liner positive regression relationship
+-- windspeed and hum have some relationship but not looking obviously linear
+-- weathersit and season have a relationship as in some categories have higher rental count
+-- temp,atemp,year have highest correlation with rental count numbers
+-- season has a decent correlation with rental count numbers
+-- rest seems to be very meekly correlated
+-- There is clear year on year increase rental count and sales from 2018 to 2019 , probably this might have continued if there was no covid impact , yet to be seen since there is no 2020,2021 data
+-- There is more rental on non-holiday and count of rentals is high for registered users Vs casual users on weekdays , clearly indicating possibility of more office going or day scholar population using bike during weekdays and nonholidays.
+-- There is comparatively more rental on summer and spring season , decreases in fall and least in winter.
+-- Relative to season , There is comparatively more rental on April to Aug/sep timeframe compared to colder months.
+-- More people tend to use bike rentals on clear sky m sunny and cloudy days compared to rainy or snowy days. There is none usage in 2 years on heavy snow or heavy rain day which is no surprise.   
 - Model coeefficients and summary parameters of the final selected model. 
 - Useful charts and plots for the analysis done.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Exploratory Data Analysis on different data set columns , their correlation with each other and rental count
+- Build Multi regression models based on relevant independant variables against rental count and compare model summary parameters , p values of coefficients of vairables, r squared / ajusted r squared valuaes and VIF values against each other.
 
 
 ## Contact
